@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New User Sign-Up</title>
+        <link rel="stylesheet" href="./User_Signup_css.css">
+    </head>
+
+    <div id="container">
+
+        <header>
+            <nav>
+                <a href="./index.html">Home Page</a>
+                <a href="./home_template.html">Log In</a>
+            </nav>
+        </header>
+
+        <body>
+            
+            <h1>User Sign-Up Page</h1>
+
+            <div class="form">
+                <form action='/' method='POST'>
+
+                    <div class="label">
+                        <label for="user_name">Enter User Name: </label>
+                        <label for="password">Enter Password: </label>
+                        <label for="re_enter_password">Re-Enter Password: </label>
+                        <label for="email">Enter Email Address (Optional): </label>
+                    </div><!--closes label-->
+                    
+                    <div class="input">
+                        <input id="user_name" type="text" name="user_name" value=''/>
+                        <input id="password" type="password" name="new_password" value=''/>
+                        <input id="re_enter_password" type="password" name="password_check" value=''/>
+                        <input id="email" type="text" name="email" value=''/>
+                    </div><!--closes input-->
+
+                    <input class="button" type="submit" value="Sign-Up!"/>
+            
+                </form>        
+            </div><!--closes form-->
+        </body>            
+    
+        <footer>
+        </footer>
+        
+    </div><!--closes container-->
+        
+</html>

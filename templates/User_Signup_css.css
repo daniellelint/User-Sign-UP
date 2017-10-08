@@ -1,0 +1,75 @@
+#container{
+    width:70%;
+    height:100%;
+    min-height:780px;
+    margin:auto;
+    background-color:#fff;
+}
+
+body{
+    margin:auto;
+    min-width:780px;
+    background-image:url("./images/galaxy.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-color:#000;
+}
+
+a{
+    color:#AA1D1D;
+    padding:5px;
+    margin:5px;
+}
+
+nav a{
+    border:1px solid;
+}
+
+h1{
+    font-size:20px;
+    margin:2%;
+    text-align:center;
+    padding:20px;
+}
+
+form{
+    margin:auto;
+}
+
+label{
+    display:block;
+    padding:1px;
+}
+
+input{
+    display:block;
+    padding:1px;
+}
+
+.form{
+    width:25%;
+    min-width:600px;
+    margin:auto;
+    padding:10px;
+}
+
+.label{
+    float:left;
+    margin-left:15%;
+}
+
+.input{
+    float:right;
+    margin-right:15%;
+}
+
+.button{
+    position:relative;
+    clear:both;
+    float:right;
+    padding:5px;
+}
+
+.error{
+    color:red;
+}

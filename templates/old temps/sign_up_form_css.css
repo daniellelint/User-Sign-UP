@@ -1,0 +1,37 @@
+h1{
+    font-size:20px;
+}
+
+form{
+    width:100%;
+    margin:auto;
+}
+
+label{
+
+}
+
+input{
+
+}
+
+.space{
+
+}
+
+.button{
+    bottom:auto;
+}
+
+.error{
+    color:red;
+}
+
+.left{
+    margin-left:50;
+}
+
+.right{
+    margin-left:20px;
+}
+

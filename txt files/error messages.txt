@@ -1,0 +1,9 @@
+<p class="error">Invalid User Name.</p>
+<p class="error">Please Enter a User Name.</p>
+
+<p class="error">Invalid Password.</p>
+<p class="error">Please Enter a Password.</p>
+
+<p class="error">Passwords Do Not Match.</p>
+
+<p class="error">Invalid Email Address.</p>
