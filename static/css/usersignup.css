@@ -1,5 +1,5 @@
 #container{
-    width:70%;
+    width:90%;
     height:100%;
     min-height:780px;
     margin:auto;
@@ -8,10 +8,6 @@
 
 body{
     margin:auto;
-    min-width:780px;
-    background-image:url("./images/galaxy.jpg");
-    background-size:100%;
-    background-repeat:no-repeat;
     background-color:#000;
 }
 
@@ -42,7 +38,7 @@ form{
 
 label{
     display:block;
-    padding:1px;
+    padding:10px;
 }
 
 input{
