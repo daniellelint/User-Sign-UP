@@ -32,6 +32,10 @@ h1{
     padding:20px;
 }
 
+p{
+
+}
+
 form{
     margin:auto;
 }
@@ -61,6 +65,10 @@ input{
 .input{
     float:right;
     margin-right:15%;
+}
+
+.error{
+    color:red;
 }
 
 .button{

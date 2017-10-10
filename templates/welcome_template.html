@@ -1,26 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome!</title>
-        <link rel="stylesheet" href="./User_Signup_css.css">
-    </head>
-    
-    <div id="container">
+{% extends "base_template.html" %}
 
-        <header>
-            <nav>
-                <a href="./index.html">Home Page</a>
-                <a href="./home_template.html">Log In</a>
-            </nav>
-        </header>
-        
-        <body>
-            <h1>'Welcome, ' + {{user_name}} + '!'</h1>
-        </body>
+{% block head %}
+{% endblock %}
 
-        <footer>
-        </footer>
+{% block body %}
+    <h1>Welcome, {{user_name}}!</h1>
+{% endblock %}
 
-    </div><!--closes container-->
-
-</html>
+{% block footer %}
+{% endblock %}

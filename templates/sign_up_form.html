@@ -1,49 +1,37 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>New User Sign-Up</title>
-        <link rel="stylesheet" href="./User_Signup_css.css">
-    </head>
+{% extends "base_template.html" %}
 
-    <div id="container">
+{% block head %}
+{% endblock %}
 
-        <header>
-            <nav>
-                <a href="./index.html">Home Page</a>
-                <a href="./home_template.html">Log In</a>
-            </nav>
-        </header>
+{% block body %}
+    <h1>User Sign-Up Page</h1>
 
-        <body>
+    <div class="form">
+        <form action='/sign_up' method='POST'>
+
+            <div class="label">
+                <label for="user_name">Enter User Name: </label>
+                <label for="new_password">Enter Password: </label>
+                <label for="re_enter_password">Re-Enter Password: </label>
+                <label for="email">Enter Email Address (Optional): </label>
+            </div><!--closes label-->
             
-            <h1>User Sign-Up Page</h1>
+            <div class="input">
+                <input id="user_name" type="text" name="user_name" value='{{user_name}}'/>
+                <p class="error">{{user_name_error}}</p>
+                <input id="new_password" type="password" name="password" value="{{password}}"/>
+                <p class="error">{{password_error}}</p>
+                <input id="re_enter_password" type="password" name="password_check" value="{{password_check}}"/>
+                <p class="error">{{password_check_error}}</p>
+                <input id="email" type="text" name="email" value="{{email}}"/>
+                <p class="error">{{email_error}}</p>
+            </div><!--closes input-->
 
-            <div class="form">
-                <form action='/' method='POST'>
+            <input class="button" type="submit" value="Sign-Up!"/>
 
-                    <div class="label">
-                        <label for="user_name">Enter User Name: </label>
-                        <label for="password">Enter Password: </label>
-                        <label for="re_enter_password">Re-Enter Password: </label>
-                        <label for="email">Enter Email Address (Optional): </label>
-                    </div><!--closes label-->
-                    
-                    <div class="input">
-                        <input id="user_name" type="text" name="user_name" value=''/>
-                        <input id="password" type="password" name="new_password" value=''/>
-                        <input id="re_enter_password" type="password" name="password_check" value=''/>
-                        <input id="email" type="text" name="email" value=''/>
-                    </div><!--closes input-->
+        </form>        
+    </div><!--closes form-->
+{% endblock %}
 
-                    <input class="button" type="submit" value="Sign-Up!"/>
-            
-                </form>        
-            </div><!--closes form-->
-        </body>            
-    
-        <footer>
-        </footer>
-        
-    </div><!--closes container-->
-        
-</html>
+{% block footer %}
+{% endblock %}

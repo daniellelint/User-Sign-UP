@@ -7,3 +7,11 @@
 <p class="error">Passwords Do Not Match.</p>
 
 <p class="error">Invalid Email Address.</p>
+
+
+
+
+title='Welcome'
+title='Log-In'
+title='Sign-Up'
+title='Sign-Up-Validation'

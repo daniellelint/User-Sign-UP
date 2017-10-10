@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    {% block head %}
+        <head>
+            <title>{{title}}</title>
+            <link rel="stylesheet" type="text/css" href="./static/css/usersignup.css"/>
+            <!--href="./static/css/usersignup.css"/>-->
+            <!--href="./templates_css/user_signup.css"/>-->
+            <!--href="{{ url_for('static', filename='styles.css') }}"/>-->
+        </head>
+    {% endblock %}
+
+    <div id="container">
+
+        <header>
+            <nav>
+                <a href="/">Home Page</a>
+                <a href="/log-in">Log In</a>
+            </nav>
+        </header>
+
+        <body>
+            {% block body %}
+            {% endblock %}
+        </body>
+
+        <footer>
+            {% block footer %}
+            {% endblock %}
+        </footer>
+    
+    </div><!--closes container-->
+</html>
